@@ -1,0 +1,49 @@
+.recent-action-card-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  max-height: min-content;
+  border-radius: 5px;
+  box-shadow: 2px 1px 3px rgba(211, 205, 205, 0.664);
+  background-color: #fff;
+}
+.recent-action-card-container:not(:last-child) {
+  margin-right: 5px;
+}
+.recent-action-card-title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+  box-sizing: border-box;
+  border-radius: 5px 5px 0 0;
+}
+.recent-action-card-title {
+  font-size: 1.5em;
+  border-bottom: 2px solid;
+}
+.recent-action-card-row {
+  display: flex;
+  margin-bottom: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.246);
+}
+.recent-action-user-value-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.recent-action-card-profile {
+  width: 100px;
+  border-radius: 50%;
+}
+.recent-action-link {
+  text-align: end;
+  margin: 15px;
+  color: black;
+}

@@ -1,0 +1,27 @@
+.market-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.market-title {
+  margin: 50px 0;
+}
+.filter-market {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.filter-market > label {
+  margin-bottom: 15px;
+}
+.filter-market > select {
+  width: 100px;
+  height: 25px;
+  font-size: 1em;
+}

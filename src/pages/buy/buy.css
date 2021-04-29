@@ -1,0 +1,102 @@
+.buy-page-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+.buy-page-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  box-sizing: border-box;
+  width: 25%;
+  margin-right: 15px;
+  height: 800px;
+  padding: 15px;
+}
+.artwork-description {
+  height: 50%;
+}
+.buy-offer {
+  font-size: 1.5em;
+  margin-bottom: 50px;
+}
+.buy-page-artwork {
+  background-color: green;
+  width: 30%;
+  max-height: 500px;
+  margin: 0 30px;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+.tags {
+  margin: 15px 0;
+}
+aside {
+  width: 25%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.owner-artist-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy-page-title {
+  margin: 50px 0;
+}
+.buy-page-info > h3 {
+  font-size: 3em;
+  margin: 15px 0;
+  font-weight: bold;
+}
+.buy-page-info > h5 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.buy-btn {
+  line-height: 3.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+  width: 100%;
+  background: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s background ease;
+}
+.buy-btn:hover {
+  background: #002ef1;
+}
+.buy-page-profile {
+  height: 80px;
+  width: 80px;
+  padding: 15px;
+  border-radius: 50%;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+}
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.owner-artist-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.owner-artist-wrapper > span {
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.5);
+}

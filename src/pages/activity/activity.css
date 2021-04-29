@@ -1,0 +1,46 @@
+.activity-page-container {
+  display: flex;
+  background-color: #fff;
+}
+
+.activity-left {
+  flex-grow: 4;
+}
+.activity-right {
+  flex-grow: 1;
+  margin-top: 15px;
+  height: fit-content;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.activity-right > aside {
+  margin-bottom: 30px;
+}
+.activity-aside {
+  margin-bottom: 50px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+.aside-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.activity-page-title {
+  margin: 50px 0;
+}
+.user-profile-aside {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.activity-page-user-row {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+.activity-page-user-row > img {
+  margin-right: 5px;
+}

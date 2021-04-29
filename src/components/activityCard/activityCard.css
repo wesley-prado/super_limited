@@ -1,0 +1,45 @@
+.activity-page-card-container {
+  display: flex;
+  justify-content: center;
+  margin: 15px auto;
+  background-color: #fff;
+  width: 60%;
+  margin-bottom: 50px;
+  height: 750px;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 1px 3px rgba(211, 205, 205, 0.664);
+}
+
+.activity-page-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.activity-page-profile {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  padding: 5px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  object-fit: cover;
+  margin: 0px 15px 15px 0;
+}
+.activity-page-artwork {
+  object-fit: cover;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 15px;
+}
+.activity-user-wrapper {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  padding: 5px;
+  box-sizing: border-box;
+}

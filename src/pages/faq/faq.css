@@ -1,0 +1,22 @@
+.faq-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  margin-top: 10%;
+  border-radius: 5px;
+}
+.content-wrapper {
+  box-shadow: 2px 1px 3px rgba(211, 205, 205, 0.664);
+  padding: 15px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+.content-wrapper > h3 {
+  font-size: 1.3em;
+  margin-bottom: 15px;
+}
