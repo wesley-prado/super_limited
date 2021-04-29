@@ -107,7 +107,7 @@ const Activity = () => {
                 src={USERPROFILE}
                 alt="user"
               />
-              <a href="">@User</a>
+              <a href="/">@User</a>
             </div>
             <div className="activity-page-user-row">
               <img
@@ -115,7 +115,7 @@ const Activity = () => {
                 src={USERPROFILE}
                 alt="user"
               />
-              <a href="">@User</a>
+              <a href="/">@User</a>
             </div>
             <div className="activity-page-user-row">
               <img
@@ -123,7 +123,7 @@ const Activity = () => {
                 src={USERPROFILE}
                 alt="user"
               />
-              <a href="">@User</a>
+              <a href="/">@User</a>
             </div>
             <div className="activity-page-user-row">
               <img
@@ -131,7 +131,7 @@ const Activity = () => {
                 src={USERPROFILE}
                 alt="user"
               />
-              <a href="">@User</a>
+              <a href="/">@User</a>
             </div>
             <div className="activity-page-user-row">
               <img
@@ -139,7 +139,7 @@ const Activity = () => {
                 src={USERPROFILE}
                 alt="user"
               />
-              <a href="">@User</a>
+              <a href="/">@User</a>
             </div>
           </aside>
           <aside className="activity-aside">
@@ -151,7 +151,7 @@ const Activity = () => {
                   src={USERPROFILE}
                   alt="user"
                 />
-                <a href="">@User</a>
+                <a href="/">@User</a>
               </div>
               <div className="activity-page-user-row">
                 <img
@@ -159,7 +159,7 @@ const Activity = () => {
                   src={USERPROFILE}
                   alt="user"
                 />
-                <a href="">@User</a>
+                <a href="/">@User</a>
               </div>
               <div className="activity-page-user-row">
                 <img
@@ -167,7 +167,7 @@ const Activity = () => {
                   src={USERPROFILE}
                   alt="user"
                 />
-                <a href="">@User</a>
+                <a href="/">@User</a>
               </div>
               <div className="activity-page-user-row">
                 <img
@@ -175,7 +175,7 @@ const Activity = () => {
                   src={USERPROFILE}
                   alt="user"
                 />
-                <a href="">@User</a>
+                <a href="/">@User</a>
               </div>
               <div className="activity-page-user-row">
                 <img
@@ -183,7 +183,7 @@ const Activity = () => {
                   src={USERPROFILE}
                   alt="user"
                 />
-                <a href="">@User</a>
+                <a href="/">@User</a>
               </div>
             </div>
           </aside>

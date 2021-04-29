@@ -45,7 +45,7 @@ const Home = () => {
               </div>
               <div className="activity-transaction">
                 <span>
-                  <a href="#">@marques</a> comprou <a href="#">Wizardry</a> por
+                  <a href="/">@marques</a> comprou <a href="/">Wizardry</a> por
                   R$3.000,00
                 </span>
               </div>
@@ -59,7 +59,7 @@ const Home = () => {
               </div>
               <div className="activity-transaction">
                 <span>
-                  <a href="#">@Blaxpow</a> comprou <a href="#">BTCBoy</a> por
+                  <a href="/">@Blaxpow</a> comprou <a href="/">BTCBoy</a> por
                   R$19.980,00
                 </span>
               </div>
@@ -73,8 +73,8 @@ const Home = () => {
               </div>
               <div className="activity-transaction">
                 <span>
-                  <a href="#">@Soul</a> comprou{" "}
-                  <a href="#">CryptoArt is a big bubble</a> por R$1.000,00
+                  <a href="/">@Soul</a> comprou{" "}
+                  <a href="/">CryptoArt is a big bubble</a> por R$1.000,00
                 </span>
               </div>
             </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "../../components/button";
 import { GIRL, USERPROFILE } from "../../shared/imgLinks";
 import Header from "../../components/header";
 import icon from "./img/view.png";
@@ -25,14 +24,14 @@ const Buy = () => {
           <div className="owner-artist-row">
             <img className="buy-page-profile" src={USERPROFILE} alt="" />
             <div className="owner-artist-wrapper">
-              <a href="#">@User</a>
+              <a href="/">@User</a>
               <span>Artista</span>
             </div>
           </div>
           <div className="owner-artist-row">
             <img className="buy-page-profile" src={USERPROFILE} alt="" />
             <div className="owner-artist-wrapper">
-              <a href="#">@User</a>
+              <a href="/">@User</a>
               <span>Dono</span>
             </div>
           </div>

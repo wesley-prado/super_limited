@@ -17,7 +17,7 @@ const Card = ({ cardTitle, recentActionText, value1, value2, value3 }) => {
             alt=""
           />
           <div className="recent-action-user-value-wrapper">
-            <a href="">@User</a>
+            <a href="/">@User</a>
             <span>{value1}</span>
           </div>
         </div>
@@ -28,7 +28,7 @@ const Card = ({ cardTitle, recentActionText, value1, value2, value3 }) => {
             alt=""
           />
           <div className="recent-action-user-value-wrapper">
-            <a href="">@User</a>
+            <a href="/">@User</a>
             <span>{value2}</span>
           </div>
         </div>
@@ -39,12 +39,12 @@ const Card = ({ cardTitle, recentActionText, value1, value2, value3 }) => {
             alt=""
           />
           <div className="recent-action-user-value-wrapper">
-            <a href="">@User</a>
+            <a href="/">@User</a>
             <span>{value3}</span>
           </div>
         </div>
       </div>
-      <a className="recent-action-link" href="#">
+      <a className="recent-action-link" href="/">
         Ver mais
       </a>
     </div>

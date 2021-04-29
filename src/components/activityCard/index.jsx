@@ -11,7 +11,7 @@ const ActivityCard = ({ text, img }) => {
           <div className="activity-user-wrapper">
             <img className="activity-page-profile" src={USERPROFILE} alt="" />
             <span>
-              <a href="#">@User</a> {text}
+              <a href="/">@User</a> {text}
             </span>
           </div>
           <img className="activity-page-artwork" src={img} alt="" />
